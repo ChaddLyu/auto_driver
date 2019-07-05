@@ -1,0 +1,63 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.25.2.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: hyxua,  , LIC=CRMQD-80W0M-78VFD-83V3S-TG59S-4S7Y3
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.25.2.0
+Toolchain Path:  d:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.25.2.0
+Dialog DLL:      DCM.DLL V1.17.1.0
+Target DLL:      Segger\JL2CM3.dll V2.99.29.0
+Dialog DLL:      TCM.DLL V1.35.1.0
+ 
+<h2>Project:</h2>
+D:\ROBSEN BUSINESS\项目\罗普森项目资料\南航ROS小车项目\auto_driver\MDK-ARM\YS-F4Pro.uvprojx
+Project File Date:  07/05/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'd:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'YS-F4Pro'
+compiling bsp_beep.c...
+compiling bsp_led.c...
+compiling main.c...
+compiling control.c...
+..\applications\control.c(77): warning:  #68-D: integer conversion resulted in a change of sign
+  static const short src_head = 42662;
+..\applications\control.c(77): warning:  #177-D: variable "src_head"  was declared but never referenced
+  static const short src_head = 42662;
+..\applications\control.c(78): warning:  #177-D: variable "src_rate"  was declared but never referenced
+  static short src_rate = 0, src_angle = 0;
+..\applications\control.c(78): warning:  #177-D: variable "src_angle"  was declared but never referenced
+  static short src_rate = 0, src_angle = 0;
+..\applications\control.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=12596 RO-data=448 RW-data=124 ZI-data=4564  
+FromELF: creating hex file...
+"YS-F4Pro\YS-F4Pro.axf" - 0 Error(s), 4 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.13.0.pack
+                Keil.STM32F4xx_DFP.2.13.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_YS-F4Pro
+  d:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:18
+</pre>
+</body>
+</html>
